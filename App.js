@@ -768,6 +768,7 @@ export default class App extends Component<Props> {
             style={styles.cvptext}
             value={this.state.textbox.toString()}
             maxLength={22}
+            onFocus={Keyboard.dismiss}
           />
           </View>
           <View style={[styles.cvpalani]}>
